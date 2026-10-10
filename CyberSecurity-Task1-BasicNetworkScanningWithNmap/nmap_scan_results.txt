@@ -1,0 +1,31 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-10 11:32 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-10 11:33 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000062s latency).
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.9)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.43 seconds
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-10 11:33 IST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000064s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+Device type: general purpose
+Running: Linux 2.6.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 2.6.32, Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.56 seconds
